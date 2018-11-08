@@ -1,0 +1,25 @@
+/*Vendors*/
+/*rtl:begin:ignore*/
+@import "vendors/_bootstrap-grid";
+@import "vendors/_bootstrap-reboot";
+@import "../css/icons.css";
+
+/*Globals*/
+/*rtl:end:ignore*/
+@import "globals/_variables";
+@import "globals/_global";
+
+
+/*Components - Project specific*/
+@import "components/_fonts";
+@import "components/_header";
+@import "components/_footer";
+
+/*rtl:begin:ignore*/
+@import "components/_arabic.scss";
+/*rtl:end:ignore*/
+@import "components/_responsive";
+
+.test{
+    transform: rotate(30deg);
+}

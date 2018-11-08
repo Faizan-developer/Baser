@@ -1,0 +1,8 @@
+{{#is production "true" }}
+    <script type="text/javascript" src="../{{filesDirectory}}/js/app.min.js"></script>
+{{else}}
+    <script type="text/javascript" src="../{{filesDirectory}}/js/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../{{filesDirectory}}/js/default.js"></script>
+
+{{/is}}
+

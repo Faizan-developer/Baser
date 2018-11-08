@@ -1,0 +1,16 @@
+
+
+.header-panel
+{
+  background: yellow;
+  min-height: 25vh;
+  &:after
+  {
+    content:"";
+    position: relative;
+  }
+  &:before
+  {
+    content:"";
+  }
+}
